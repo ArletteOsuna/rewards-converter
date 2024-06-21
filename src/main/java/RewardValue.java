@@ -2,6 +2,7 @@ public class RewardValue {
         private double cashValue;
         private double milesValue;
         private static final double MILES_TO_CASH_RATE = 0.0035;
+        public static final double MILES_TO_CASH_CONVERSION_RATE = 0.0035;
 
         // Accepts a cash value
         public RewardValue(double cashValue) {
